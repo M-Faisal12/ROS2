@@ -17,7 +17,8 @@ setup(
         'numpy',
         'scipy',
         'speech_recognition',
-        'sentence-transformers'
+        'sentence-transformers',
+        'sqlite3'
     ],
     zip_safe=True,
     maintainer='M-Faisal',
