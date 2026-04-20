@@ -1,0 +1,49 @@
+[0.702s] Invoking command in '/home/ali-hmaza/Downloads/ROS2/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build install --record /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.866s] running egg_info
+[0.867s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.877s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.878s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.878s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.878s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.899s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build
+[0.900s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib
+[0.900s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.900s] copying my_py_pkg/__init__.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.901s] copying my_py_pkg/my_first_node.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.901s] copying my_py_pkg/number_publisher.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.901s] copying my_py_pkg/number_counter.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.901s] copying my_py_pkg/reset_counter_client.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.901s] running install
+[0.904s] running install_lib
+[0.918s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.918s] copying /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.918s] copying /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.918s] copying /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.918s] copying /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.918s] copying /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/reset_counter_client.py -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.918s] byte-compiling /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[0.918s] byte-compiling /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[0.919s] byte-compiling /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[0.919s] byte-compiling /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[0.919s] byte-compiling /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/reset_counter_client.py to reset_counter_client.cpython-312.pyc
+[0.920s] running install_data
+[0.920s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/share/ament_index
+[0.920s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.920s] creating /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.920s] copying resource/my_py_pkg -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.920s] copying package.xml -> /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.920s] running install_egg_info
+[0.932s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.933s] running install_scripts
+[1.009s] Installing number_counter script to /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.010s] Installing number_publisher script to /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.010s] Installing reset_counter_client script to /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.010s] Installing test_node script to /home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.010s] writing list of installed files to '/home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/install.log'
+[1.031s] Invoked command in '/home/ali-hmaza/Downloads/ROS2/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ali-hmaza/Downloads/ROS2/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/build install --record /home/ali-hmaza/Downloads/ROS2/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
